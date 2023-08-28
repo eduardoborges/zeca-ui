@@ -1,0 +1,16 @@
+{
+  "extends": ["airbnb", "airbnb-typescript"],
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+  "rules": {
+    "react/jsx-props-no-spreading": 0,
+    "react/button-has-type": 0,
+    "no-restricted-exports": 0,
+    "import/prefer-default-export": 0,
+    "no-plusplus": 0,
+
+    "@typescript-eslint/no-unused-vars": "warn",
+    "import/no-extraneous-dependencies": "off"
+  }
+}
